@@ -53,7 +53,7 @@ async function checkProducts() {
     const { data } = await axios.get(API_URL);
 
     for (const product of data) {
-      if (product.available > 0 && TARGET_IDS.includes(product.id)) {
+      if (product.available >= 0 && TARGET_IDS.includes(product.id)) {
         await sendTelegramMessage(product);
       }
     }
