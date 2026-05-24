@@ -12,7 +12,7 @@ const CHAT_ID = "-5158382083";
 const TARGET_IDS = [
   "c2b6cfdf-314f-41da-93a3-45c1a961ceca",
   "cd117f4e-0fd6-4649-923e-ad47ad573aa2",
-  "dd9caedf-0e3a-42c2-9d31-46564ee72e46",
+  
 
   // "1c723523-c9c0-41de-abcb-f500747c0f0e",
   // "dd9caedf-0e3a-42c2-9d31-46564ee72e46",
